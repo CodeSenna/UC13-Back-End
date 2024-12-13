@@ -37,5 +37,36 @@ Retorna a lista completa de carros disponíveis.
     "aceleracao": 2.9,
     "preco": 300000
  },
+ {
+   "nome": "Lamborghini",
+   "sigla":"LAM",
+   "velocidadeMaxima": 355,
+   "potencia": 770,
+   "consumo": 6.2,
+   "aceleracao": 2.8,
+   "preco": 330000
+ }
 ]
+```
+
+### 2. **GET /:sigla**
+
+Retorna as informações de um carro específicico, identificado pela sigla.
+
+### Exemplo de Requisição:
+
+`GET /FER`
+
+### Exemplo de Resposta:
+
+```json
+{
+   "nome": "Ferrari",
+   "sigla": "FER",
+   "velocidadeMaxima": 340,
+   "potencia": 800,
+   "consumo": 5.5,
+   "aceleracao": 2.9,
+   "preco": 300000
+}
 ```
