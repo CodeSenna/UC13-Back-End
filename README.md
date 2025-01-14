@@ -156,3 +156,36 @@ Remove um carro específico pela sigla.
     "preco": 130000
 }
 ```
+# API de Carros - WebAPI
+## Como Rodar o Projeto
+
+1. **Clone este repositório:**
+
+   ```bash
+   git clone https://github.com/CodeSenna/UC13-Back-End.git
+   ```
+
+2. **Instale as dependências**
+   
+   ```bash
+   npm install
+   ```
+
+3. **Inicie o servidor**
+
+   ```bash
+   node ./app.js
+   ```
+
+4. **Acesse a API**
+
+A API está disponível em [http://localhost:3000]
+
+## Validações
+
+Os dados enviados para API  validados com **Joi** para garantir que todos os campos sejam fornecidos corretamente. As validações incluem:
+
+- O nome de carro deve ter pelo menos 3 caracteres.
+- A sigla deve ter exatamente 3 caracteres.
+- A potência, velocidade máxima, consumo, aceleração e preço devem ser números válidos.
+- Durante a atualização, pelo menos um campo precisa ser fornecido.
