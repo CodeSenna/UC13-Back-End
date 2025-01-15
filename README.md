@@ -162,7 +162,7 @@ Remove um carro específico pela sigla.
 1. **Clone este repositório:**
 
    ```bash
-   git clone https://github.com/CodeSenna/UC13-Back-End.git
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
    ```
 
 2. **Instale as dependências**
